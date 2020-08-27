@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 int main(void){
-    char nome_da_variavel;
-    char segunda_variavel;
-    char x = 'x';
-    char y = 'a';
-    float pi = 3.14;
-    printf("Conteudo de a: %c\nConteudo de b: %c.",x,y);
-    printf("\n%f",pi);
+int num1,num2;
+int result;
+printf("Por favor, forneça o valor de Num 1: \n");
+scanf("%d",&num1);
+printf("Por favor, forneça o valor de Num 2: \n");
+scanf("%d",&num2);
+result = num1+num2;
+//printf("%d + %d = %d\n",num1,num2,result);
+printf("A soma dos dois valores corresponde a: %d\n",result);
     return 0;
 }
